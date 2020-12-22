@@ -1,9 +1,14 @@
-import Vue from 'vue'
-import App from './App'
+import Vue from 'vue';
+import App from './App';
 
-Vue.config.productionTip = false
+// 全局注册iconfont图标
+import Icon from "./compontents/icon";
+// 使用Vue.compontent进行注册第一参数是我们组件内的标签第二个参数是引入的组件
+Vue.component("isIcon",Icon)
 
-App.mpType = 'app'
+Vue.config.productionTip = false;
+
+App.mpType = 'app';
 
 const app = new Vue({
     ...App

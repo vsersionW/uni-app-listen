@@ -15,5 +15,12 @@
 <style>
 	/*每个页面公共css */
 
-	@import url();
+	/*引入iconfont图标*/
+	@import url("./assets/style/iconfont.css");
+
+	/*引入animate动画*/
+	@import url("./assets/style/animate.css");
+
+	/*引入默认样式表*/
+	@import url("./assets/style/free.css");
 </style>

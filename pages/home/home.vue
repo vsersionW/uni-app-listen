@@ -1,6 +1,6 @@
 <template>
 	<view class="home_container">
-		
+		home
 	</view>
 </template>
 
