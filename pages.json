@@ -1,0 +1,33 @@
+{
+	"pages": [
+	    {
+			"path" : "pages/index/index",
+            "style" :                                                                                    
+            {
+				"navigationBarTitleText": "首页"
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "home"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#f60"
+	},
+	"tabBar": {
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "index"
+		},{
+			"pagePath": "pages/home/home",
+			"text": "home"
+		}]
+	}
+}
