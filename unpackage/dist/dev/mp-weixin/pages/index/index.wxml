@@ -1,0 +1,1 @@
+<view class="index_container data-v-57280228"><view style="{{'background-color:#dedede;'+('height:'+($statusBarHeight+'px')+';')}}" class="data-v-57280228"></view><is-search vue-id="8dd740cc-1" class="data-v-57280228" bind:__l="__l"></is-search></view>

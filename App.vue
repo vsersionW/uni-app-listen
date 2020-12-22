@@ -23,4 +23,13 @@
 
 	/*引入默认样式表*/
 	@import url("./assets/style/free.css");
+
+	html,body,#app{
+		width: 100%;
+		height: 100%;
+	}
+	uni-page-wrapper,uni-page-body{
+		width: 100%;
+		height: 100%;
+	}
 </style>

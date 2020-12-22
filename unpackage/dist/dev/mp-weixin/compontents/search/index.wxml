@@ -1,0 +1,1 @@
+<view class="container data-v-a031ba8c"><view class="header data-v-a031ba8c"><is-icon vue-id="4cfdb58c-1" iconSize="25" iconColor="text-light-muted" iconName="icon-tubiao11" class="data-v-a031ba8c" bind:__l="__l"></is-icon><input placeholder="搜索你想听的节目" class="data-v-a031ba8c"/></view></view>

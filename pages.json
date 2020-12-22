@@ -1,33 +1,53 @@
 {
 	"pages": [
 	    {
-			"path" : "pages/index/index",
-            "style" :                                                                                    
-            {
-				"navigationBarTitleText": "首页"
-            }
-            
+			"path" : "pages/index/index"                                                                                 
         }
         ,{
-            "path" : "pages/home/home",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "home"
-            }
-            
+            "path" : "pages/collection/collection"
+        }
+        ,{
+            "path" : "pages/sort/sort"
+        }
+        ,{
+            "path" : "pages/mine/mine"
         }
     ],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarBackgroundColor": "#f60"
+		"navigationStyle":"custom"
 	},
 	"tabBar": {
+		"selectedColor": "red",
 		"list": [{
 			"pagePath": "pages/index/index",
-			"text": "index"
+			"text": "首页",
+			"iconPath":"static/tabbar/index.png",
+			"selectedIconPath":"static/tabbar/indexed.png"
 		},{
-			"pagePath": "pages/home/home",
-			"text": "home"
+			"pagePath": "pages/sort/sort",
+			"text": "分类",
+			"iconPath":"static/tabbar/sort.png",
+			"selectedIconPath":"static/tabbar/sorted.png"
+		},{
+			"pagePath": "pages/collection/collection",
+			"text": "收藏",
+			"iconPath":"static/tabbar/collection.png",
+			"selectedIconPath":"static/tabbar/collected.png"
+		},{
+			"pagePath": "pages/mine/mine",
+			"text": "我的",
+			"iconPath":"static/tabbar/mine.png",
+			"selectedIconPath":"static/tabbar/mined.png"
 		}]
+	},
+	"condition" : { 
+		"current": 0, 
+		"list": [
+			{
+				"name": "", 
+				"path": "", 
+				"query": "" 
+			}
+		]
 	}
 }
