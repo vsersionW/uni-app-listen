@@ -1,5 +1,5 @@
 <template>
-  <view class="swiper_container animated" hover-class="pulse">
+  <view class="swiper_container">
     <swiper
       indicator-active-color="#ffffff"
       class="swiper"
@@ -8,8 +8,12 @@
       :interval="interval"
       :duration="duration"
     >
-      <swiper-item v-for="(item, index) in swiperImage" :key="index">
-        <image mode="widthFix" :src="item.image"></image>
+      <swiper-item
+        class="w-100 animated my-animate"
+        v-for="(item, index) in swiperImage"
+        :key="index"
+      >
+        <image class="img" mode="widthFix" :src="item.image"></image>
       </swiper-item>
     </swiper>
   </view>
@@ -48,6 +52,7 @@ swiper-item {
   width: 100%;
   height: 100%;
 }
+
 swiper-item image {
   width: 100%;
   height: 100%;
